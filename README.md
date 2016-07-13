@@ -1,5 +1,6 @@
 # Vue for Idea
 
+[![Build Status](https://travis-ci.org/henjue/vue-for-idea.svg?branch=master)](https://travis-ci.org/henjue/vue-for-idea)
 [![Join the chat at https://gitter.im/henjue/vue-for-idea](https://badges.gitter.im/henjue/vue-for-idea.svg)](https://gitter.im/henjue/vue-for-idea?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # Requires
@@ -8,45 +9,22 @@
 * [Node](https://nodejs.org)
 * [Vue-cli](https://github.com/vuejs/vue-cli)
 
-##todo
-- [x] highlighter
-- [x] autocomplete(60%)
-- [ ] reference contributor and 
-- [ ] Go To Symbol Contributor
-- [ ] Support other "lang"
-- [x] new project and new module(80%)
-- [ ] other feature
-
-![image](https://raw.githubusercontent.com/henjue/vue-for-idea/master/images/4.png)
-
-![image](https://raw.githubusercontent.com/henjue/vue-for-idea/master/images/5.png)
-
-![image](https://raw.githubusercontent.com/henjue/vue-for-idea/master/images/2.png)
-
-![image](https://raw.githubusercontent.com/henjue/vue-for-idea/master/images/3.png)
-
-## change-nodes:
-* 20160515
-
-    List Vue Templates list by github api
-    
-    Fix background error     
-* 20160424
-
-    Fix new project error
-
-* 20160123
-
-    New Vue Project Wizard
-    
-* 20151229
-
-    Create Vue File Template Action
-    
-* 20151228:
-
-    Support Vue AutoComplete for "v-xxxx" attr and "@xxxx" event;example:v-bind,v-for,v-show,@click,@load......
-
-* 20151212:
-    Syntax checking and highlighting Using HTML
+#Install the Plugin
+ Click "Preferences"->"Plugins"->"Browse Repositories",search "vue-for-idea".
+## Install the Plugin Alpha version:
+1. Use [the instructions](https://www.jetbrains.com/help/idea/2016.1/managing-enterprise-plugin-repositories.html?origin=old_help)
+2. Paste the URL 
+```
+https://plugins.jetbrains.com/plugins/alpha/8123
+```
+ 
+##Todo
+- [ ] Grammar
+ - [x] highlighter
+ - [x] autocomplete
+ - [ ] reference contributor and 
+ - [ ] Go To Symbol Contributor
+ - [x] Support other "lang"
+- [ ] Project Wizard
+ - [x] new project and new module(test)
 
